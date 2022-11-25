@@ -1,0 +1,7 @@
+section.header-wrapper {
+    background: linear-gradient(#8d87c1, #6973e4);
+    box-shadow: 5px 5px 20px;
+    color: white;
+    text-align: right;
+    padding: 1em;
+}

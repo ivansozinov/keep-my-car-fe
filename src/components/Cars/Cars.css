@@ -1,0 +1,30 @@
+section.cars-list {
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+section.cars-list div {
+    padding: 1em;
+    margin: 0.5em 0;
+    border-radius: 1em;
+    background: linear-gradient(#f7f7f7, #ddd);
+    cursor: pointer;
+    box-shadow: 5px 5px 20px #999;
+}
+section.cars-list div.cars-car-add {
+    width: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.cars-list div.cars-car-add p {
+    color: #888;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0;
+}
