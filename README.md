@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Find My Car project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Service allows you to save car by VIN and get all the information about it.
+
+This is front-end part of the project.
 
 ## Available Scripts
 
