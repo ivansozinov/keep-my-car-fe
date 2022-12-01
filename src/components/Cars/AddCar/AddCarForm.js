@@ -83,8 +83,10 @@ export default function AddCartForm(props) {
 <label>Year: </label>
                 <input
                     required
-                    type="text"
+                    type="tel"
                     ref={yearRef}
+                    pattern="[0-9]{4}"
+                    maxLength="4"
                 />
 
 <label>Color: </label>

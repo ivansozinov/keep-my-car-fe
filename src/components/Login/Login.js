@@ -41,6 +41,8 @@ function SecondPart({
         type="text"
         value={code}
         onChange={e => updateFields({ code: e.target.value })}
+        pattern="[0-9]{6}"
+        maxLength="4"
       />
     </>
   )
